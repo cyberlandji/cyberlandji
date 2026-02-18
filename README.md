@@ -1,16 +1,62 @@
-## Hi there 👋
+ ========================================================================================
+#   ██████╗██╗   ██╗██████╗ ███████╗██████╗ ██╗      █████╗ ███╗   ██╗██████╗      ██╗██╗
+#  ██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗██║     ██╔══██╗████╗  ██║██╔══██╗     ██║██║
+#  ██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝██║     ███████║██╔██╗ ██║██║  ██║     ██║██║
+#  ██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗██║     ██╔══██║██║╚██╗██║██║  ██║██   ██║██║
+#  ╚██████╗   ██║   ██████╔╝███████╗██║  ██║███████╗██║  ██║██║ ╚████║██████╔╝╚█████╔╝██║
+#   ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝  ╚════╝ ╚═╝
+# =======================================================================================
 
-<!--
-**cyberlandji/cyberlandji** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+I am a cybersecurity learner focused on **blue-team and SOC fundamentals**, with a strong interest in how defenders **observe, detect, and reason** about security events through logs, alerts, and network signals.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Most of my learning is **hands-on**. I design and build lab environments to understand what security data actually looks like from a defender’s perspective — not just how tools work, but **how analysts think**.
+
+---
+
+## 🔍 Core Focus
+- Log analysis & alert triage  
+- Network traffic fundamentals (TCP/IP, DNS, HTTP)  
+- Early-stage detection & signal vs. noise  
+- Mapping observations to **MITRE ATT&CK**  
+- Defensive monitoring workflows (learning-first mindset)
+
+---
+
+## 🧪 Featured Lab Project
+**Operation Iron Watch**  
+A structured SOC lab focused on:
+- Security monitoring
+- Investigation workflow
+- Evidence collection & documentation
+- Detection logic aligned with MITRE ATT&CK
+
+*(Details documented in private/public lab repositories as appropriate)*
+
+---
+
+## 📚 Current Learning Path
+- SOC Analyst fundamentals (L1/L2 concepts)
+- Defensive Security Operations
+- Threat Detection & Analysis
+- Offensive Security Foundations (to better understand adversary behavior)
+- **Detection Engineering (foundational – rules, alerts, correlations)*
+---
+
+## 🧠 Lab Philosophy
+- Strong isolation  
+- Controlled exposure  
+- Minimal attack surface  
+- **Document what is observed, not what is assumed**  
+
+---
+
+## 🌐 Links
+- 🌍 Portfolio: https://www.cyberlandji.com  
+- 💼 LinkedIn: https://www.linkedin.com/in/yohan-cedric-landji  
+- 🧠 GitHub Labs: https://github.com/cyberlandji  
+
+---
+
+*Building strong fundamentals before moving into advanced response and hunting.*
+

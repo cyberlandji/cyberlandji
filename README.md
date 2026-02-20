@@ -11,7 +11,7 @@ cat > README.md << 'EOF'
 
 
 
-I am a cybersecurity learner focused on **blue-team and SOC fundamentals**, with a strong interest in how defenders **observe, detect, and reason** about security events through logs, alerts, and network signals.
+I am a cybersecurity learner focused on **defensive Security**, with a strong interest in how defenders **observe, detect, and reason** about security events through logs, alerts, and network signals.
 
 Most of my learning is **hands-on**. I design and build lab environments to understand what security data actually looks like from a defender’s perspective — not just how tools work, but **how analysts think**.
 

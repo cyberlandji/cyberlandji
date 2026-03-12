@@ -47,7 +47,7 @@ A structured, progressive SOC home lab series. Each episode builds on the previo
 |---------|-------|--------|
 | [Iron Watch 01](https://github.com/cyberlandji/operation-iron-watch-01) | Foundational SOC — Snort IDS, network visibility, detection without SIEM | ✅ Complete |
 | [Iron Watch 02](https://github.com/cyberlandji/operation-iron-watch-02) | Graylog SIEM — web enumeration detection, real SSH compromise observed | ✅ Complete |
-| [Iron Watch 03](https://github.com/cyberlandji/operation-iron-watch-03) | DMZ hardening, log pipeline engineering, DDoS detection suite | 🔄 In Progress |
+| [Iron Watch 03](https://github.com/cyberlandji/operation-iron-watch-03) | DMZ hardening, log pipeline engineering, DDoS detection suite | ✅ Complete |
 | Iron Watch 04 | Attack validation — Kali recon & initial access against IW03 hardening | 🔜 Planned |
 
 > The Iron Watch series is not a tutorial follow-along. It is a documented journey of building, breaking, learning, and improving a real defensive SOC environment.

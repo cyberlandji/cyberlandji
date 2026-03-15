@@ -12,6 +12,7 @@
 ## Blue Team Practitioner | Detection Engineering · SOC Operations
 
 [![ISC2 CC](https://img.shields.io/badge/ISC2-Certified%20in%20Cybersecurity-00a651?style=for-the-badge&logo=isc2&logoColor=white)](https://www.credly.com/)
+[![CASA](https://img.shields.io/badge/APIsec-Certified%20API%20Security%20Analyst-6A0DAD?style=for-the-badge&logoColor=white)](https://www.apisecuniversity.com/)
 [![Security+](https://img.shields.io/badge/CompTIA-Security%2B%20(in%20progress)-e4002b?style=for-the-badge&logo=comptia&logoColor=white)](https://www.comptia.org/certifications/security)
 
 ---

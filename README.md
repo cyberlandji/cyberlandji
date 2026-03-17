@@ -48,7 +48,6 @@ A multi-phase SOC lab series — each episode builds on the last, closing gaps d
 | [Iron Watch 01](https://github.com/cyberlandji/operation-iron-watch-01) | Foundational SOC — Snort IDS, network visibility | ✅ Complete |
 | [Iron Watch 02](https://github.com/cyberlandji/operation-iron-watch-02) | Graylog SIEM — web enumeration detection, auth.log gap discovered | ✅ Complete |
 | [Iron Watch 03](https://github.com/cyberlandji/operation-iron-watch-03) | DMZ hardening, log pipeline, DDoS Detection Suite | ✅ Complete |
-| Iron Watch 04 | Attack validation — all IW02 gaps closed, DDoS caught | 🔜 Planned |
 
 ### Operation PCAP Autopsy
 Network forensics series — structured PCAP investigations with detection rule writing.

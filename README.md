@@ -55,7 +55,7 @@ Network forensics series — structured PCAP investigations with detection rule 
 | Episode | Focus | Status |
 |---------|-------|--------|
 | [PA-01](https://github.com/cyberlandji/operation-pcap-autopsy/tree/main/pa-01-you-dirty-rat) | STRRAT C2 — traffic analysis, IOC extraction, Suricata rules | ✅ Complete |
-| [PA-02](https://github.com/cyberlandji/operation-pcap-autopsy/tree/main/pa-02-lumma-in-the-room-ah) | Lumma Stealer — infostealer traffic analysis | 🔜 Planned |
+| [PA-02](https://github.com/cyberlandji/operation-pcap-autopsy/tree/main/pa-02-lumma-in-the-room-ah) | Lumma Stealer — infostealer traffic analysis | ✅ Complete |
 
 ---
 

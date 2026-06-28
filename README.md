@@ -54,7 +54,7 @@ Each operation is validated in **both directions** — a known-bad fixture that 
 | Operation | Detection | CI Status |
 |-----------|-----------|-----------|
 | [PA-01](https://github.com/cyberlandji/the-forge/tree/main/suricata/operations/pa-01) — You Dirty Rat! (STRRAT) | 3 Suricata · known-bad + known-good | 🟢 Validated |
-| PA-02 — Lumma in the Room-ah (Lumma Stealer) | 13 Suricata | 🔜 Porting |
+| [PA-02](https://github.com/cyberlandji/the-forge/tree/main/suricata/operations/pa-02) — Lumma in the Room-ah (Lumma Stealer) | 12 Suricata (1 removed — ECH) · known-bad + known-good | 🟢 Validated |
 | PA-03 — The Ghost in the Wire (GhostWeaver RAT) | 16 Suricata | 🔜 Porting |
 | PA-04 — Easy as 123 (NetSupport Manager RAT) | 7 Suricata | 🔜 Porting |
 
@@ -69,11 +69,11 @@ PCAP-based investigation series. Each operation analyzes real-world malware traf
 | Operation | Title | Malware Family | Rules | Status |
 |-----------|-------|---------------|-------|--------|
 | [PA-01](https://github.com/cyberlandji/operation-pcap-autopsy/tree/main/pa-01-you-dirty-rat) | You Dirty Rat! | STRRAT | 3 Suricata | ✅ Complete |
-| [PA-02](https://github.com/cyberlandji/operation-pcap-autopsy/tree/main/pa-02-lumma-in-the-room-ah) | Lumma in the Room-ah | Lumma Stealer | 13 Suricata | ✅ Complete |
+| [PA-02](https://github.com/cyberlandji/operation-pcap-autopsy/tree/main/pa-02-lumma-in-the-room-ah) | Lumma in the Room-ah | Lumma Stealer | 12 Suricata (1 removed — ECH) | ✅ Complete |
 | [PA-03](https://github.com/cyberlandji/operation-pcap-autopsy/tree/main/pa-03-the-ghost-in-the-wire) | The Ghost in the Wire | GhostWeaver RAT | 16 Suricata + 3 Sigma | ✅ Complete |
 | [PA-04](https://github.com/cyberlandji/operation-pcap-autopsy/tree/main/pa-04-easy-as-123) | Easy as 123 | NetSupport Manager RAT | 7 Suricata + 1 Sigma | ✅ Complete |
 
-**39 Suricata rules** validated across 4 operations. 4 Sigma rules identified and deferred to Operation Prism Box. These operations are now being ported into **The Forge** for continuous validation.
+**38 Suricata rules** validated across 4 operations. 4 Sigma rules identified and deferred to Operation Prism Box. These operations are now being ported into **The Forge** for continuous validation.
 
 ---
 

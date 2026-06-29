@@ -111,7 +111,6 @@ Industrial protocol detection in an OT/ICS context — Modbus / DNP3 behavioral 
 
 ## 🔗 Links
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-cyberlandji.com-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.cyberlandji.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Yohan%20Cédric%20Landji-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yohan-cedric-landji)
 [![GitHub](https://img.shields.io/badge/GitHub-cyberlandji-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cyberlandji)
 

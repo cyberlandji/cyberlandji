@@ -97,7 +97,7 @@ Elastic Stack SIEM + Suricata IDS/IPS + Elastic Defend EDR + Atomic Red Team + S
 
 | Phase | Focus | Status |
 |-------|-------|--------|
-| PB-01 | Elastic Stack install + EDR implementation | 🔜 Planned |
+| PB-01 | Elastic Stack install + EDR implementation | ✅ Complete |
 | PB-02 | Atomic Red Team attack scenarios, Sigma + Suricata rule development | 🔜 Planned |
 | PB-03 | Hardening, full detection suite, Shuffle SOAR + playbook automation | 🔜 Planned |
 

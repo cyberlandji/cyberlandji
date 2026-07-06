@@ -34,7 +34,7 @@ Most of my work is **hands-on**: I build lab environments, write detection rules
 ![Wireshark](https://img.shields.io/badge/Wireshark-PCAP%20Analysis-1679A7?style=flat-square)
 ![Elastic Stack](https://img.shields.io/badge/Elastic%20Stack-SIEM-005571?style=flat-square&logo=elastic&logoColor=white)
 ![Elastic Defend](https://img.shields.io/badge/Elastic%20Defend-EDR-FEC514?style=flat-square&logo=elastic&logoColor=black)
-![Graylog](https://img.shields.io/badge/Graylog-SIEM-FF3633?style=flat-square)
+![Graylog](https://img.shields.io/badge/Graylog-Log%20Management-FF3633?style=flat-square)
 ![Atomic Red Team](https://img.shields.io/badge/Atomic%20Red%20Team-Adversary%20Emulation-D22128?style=flat-square)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red?style=flat-square)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
@@ -118,12 +118,12 @@ Giving back to the ruleset I learn from. My **first pull request to [SigmaHQ](ht
 
 ## 🏗️ Operation Iron Watch — SOC Architecture & Detection Labs
 
-A three-part SOC lab series. Each operation builds on the last: from manual detection to SIEM to full DMZ architecture with proactive defense.
+A three-part SOC lab series. Each operation builds on the last: from manual detection to centralized log management to full DMZ architecture with proactive defense.
 
 | Operation | Focus | Status |
 |-----------|-------|--------|
 | [IW01](https://github.com/cyberlandji/operation-iron-watch-01) | Foundational SOC — Snort IDS, manual correlation | ✅ Complete |
-| [IW02](https://github.com/cyberlandji/operation-iron-watch-02) | Graylog SIEM — web enumeration detection, SSH compromise invisible | ✅ Complete |
+| [IW02](https://github.com/cyberlandji/operation-iron-watch-02) | Graylog log management — web enumeration detection, SSH compromise invisible | ✅ Complete |
 | [IW03](https://github.com/cyberlandji/operation-iron-watch-03) | DMZ hardening, full log pipeline, DDoS Detection Suite | ✅ Complete |
 
 ---

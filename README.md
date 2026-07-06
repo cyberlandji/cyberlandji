@@ -21,7 +21,7 @@
 
 I design, build, and validate detection systems — from architecture to alert.
 
-Most of my work is **hands-on**: I build lab environments, write detection rules from real-world traffic, and document everything — including failures. My focus is understanding how attacks actually look in network data and how to detect them before the attacker gains a foothold. Lately I've been turning that craft into a **Detection-as-Code pipeline** — detection rules under continuous validation in CI, where every change re-proves the whole corpus still works.
+Most of my work is **hands-on**: I build lab environments, write detection rules from real-world traffic, and document everything — including failures. My focus is understanding how attacks actually look in **network and endpoint data** and how to detect them before the attacker gains a foothold. Lately I've been turning that craft into a **Detection-as-Code pipeline** — detection rules under continuous validation in CI, where every change re-proves the whole corpus still works.
 
 ---
 
@@ -29,17 +29,25 @@ Most of my work is **hands-on**: I build lab environments, write detection rules
 
 ![Suricata](https://img.shields.io/badge/Suricata-IDS%2FIPS-EF3B2D?style=flat-square)
 ![Sigma](https://img.shields.io/badge/Sigma-Detection%20Rules-008080?style=flat-square)
-![Graylog](https://img.shields.io/badge/Graylog-SIEM-FF3633?style=flat-square)
-![Wireshark](https://img.shields.io/badge/Wireshark-PCAP%20Analysis-1679A7?style=flat-square)
+![Zeek](https://img.shields.io/badge/Zeek-Network%20Security%20Monitor-2C6E9B?style=flat-square)
 ![Snort](https://img.shields.io/badge/Snort-IDS-EF3B2D?style=flat-square)
+![Wireshark](https://img.shields.io/badge/Wireshark-PCAP%20Analysis-1679A7?style=flat-square)
+![Elastic Stack](https://img.shields.io/badge/Elastic%20Stack-SIEM-005571?style=flat-square&logo=elastic&logoColor=white)
+![Elastic Defend](https://img.shields.io/badge/Elastic%20Defend-EDR-FEC514?style=flat-square&logo=elastic&logoColor=black)
+![Graylog](https://img.shields.io/badge/Graylog-SIEM-FF3633?style=flat-square)
+![Atomic Red Team](https://img.shields.io/badge/Atomic%20Red%20Team-Adversary%20Emulation-D22128?style=flat-square)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red?style=flat-square)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-Harness%20%26%20Tooling-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?style=flat-square&logo=docker&logoColor=white)
+![WireGuard](https://img.shields.io/badge/WireGuard-VPN%20Mesh-88171A?style=flat-square&logo=wireguard&logoColor=white)
+![Hetzner](https://img.shields.io/badge/Hetzner-Cloud%20Host-D50C2D?style=flat-square&logo=hetzner&logoColor=white)
 ![Kali Linux](https://img.shields.io/badge/Kali-Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-Ubuntu%20%7C%20Debian-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Windows](https://img.shields.io/badge/Windows%2010-Victim%20Endpoint-0078D6?style=flat-square&logo=windows&logoColor=white)
 ![Apache](https://img.shields.io/badge/Apache-Web%20Server-D22128?style=flat-square&logo=apache&logoColor=white)
 ![rsyslog](https://img.shields.io/badge/rsyslog-Log%20Pipeline-green?style=flat-square)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red?style=flat-square)
 ![draw.io](https://img.shields.io/badge/draw.io-Architecture-orange?style=flat-square)
 
 ---
@@ -60,13 +68,29 @@ Each operation is validated in **both directions** — a known-bad fixture that 
 | [PA-03](https://github.com/cyberlandji/the-forge/tree/main/suricata/operations/pa-03) — The Ghost in the Wire (GhostWeaver RAT) | 16 Suricata · known-bad + known-good + benign-adversarial | 🟢 Validated |
 | [PA-04](https://github.com/cyberlandji/the-forge/tree/main/suricata/operations/pa-04) — Easy as 123 (NetSupport Manager RAT) | 7 Suricata · known-bad + known-good | 🟢 Validated |
 
-> All four PCAP Autopsy operations are now ported and green — **38 Suricata rules under continuous validation**. Tracks grow from here: the Sigma track once endpoint telemetry is online (Operation Prism Box), then OT/ICS rules from Operation Ground Truth. The lab is designed to keep growing and stay green.
+> All four PCAP Autopsy operations are ported and green — **38 Suricata rules under continuous validation**. Tracks grow from here: the **Sigma track** comes online now that endpoint telemetry is live (Operation Prism Box), then OT/ICS rules from Operation Ground Truth. The lab is designed to keep growing and stay green.
+
+---
+
+## 🔮 Operation Prism Box — SIEM + EDR + Detection Correlation
+
+A cloud-hosted, living detection lab on a **WireGuard mesh**: an **Elastic Stack** brain (Elasticsearch + Kibana) with a **Fleet Server** managing **Elastic Defend** EDR on a **Windows 10 victim endpoint**, correlated against **Suricata / Zeek** network telemetry. **Atomic Red Team** drives simulated attack chains; detection rules (**Sigma + Suricata**) are written from the resulting telemetry and cross-correlated across the network and endpoint layers — then hardened and automated with **Shuffle SOAR**.
+
+| Phase | Focus | Status |
+|-------|-------|--------|
+| PB-01 | Elastic Stack brain + Fleet Server + Elastic Defend EDR on Windows victim (WireGuard mesh) | ✅ Complete |
+| PB-02 | Atomic Red Team campaigns · Sigma + Suricata rule development · network↔endpoint correlation | 🚧 In progress |
+| PB-03 | Hardening · full detection suite · Shuffle SOAR + playbook automation | 🔜 Planned |
+
+> Repo: [github.com/cyberlandji/prism-box](https://github.com/cyberlandji/prism-box)
+>
+> *A Microsoft-stack mirror (Defender for Endpoint + Sentinel, KQL translation) is a longer-term goal — decoupled from this arc, not a direct successor to PB-03.*
 
 ---
 
 ## 🔬 Operation PCAP Autopsy — Detection Rule Development & Network Forensics
 
-PCAP-based investigation series. Each operation analyzes real-world malware traffic, reconstructs the attack chain, and produces validated Suricata detection rules.
+PCAP-based investigation series. Each operation analyzes real-world malware traffic, reconstructs the attack chain, and produces validated Suricata detection rules. Zeek runs alongside as a known-answer calibration layer, auditing and sharpening the investigation methodology.
 
 | Operation | Title | Malware Family | Rules | Status |
 |-----------|-------|---------------|-------|--------|
@@ -79,6 +103,19 @@ PCAP-based investigation series. Each operation analyzes real-world malware traf
 
 ---
 
+## 🌐 Community Contribution — SigmaHQ
+
+Giving back to the ruleset I learn from. My **first pull request to [SigmaHQ](https://github.com/SigmaHQ/sigma)** — a Zeek-based detection for **NetSupport Manager RAT cleartext C2 over port 443**, derived directly from the PA-04 network forensics.
+
+- **Rule:** `zeek_http_netsupport_manager_cleartext_c2.yml` → `rules/network/zeek/`
+- **Logic:** `user_agent|startswith 'NetSupport Manager/'` **AND** `id.resp_p: 443`
+- **Why it's non-duplicate:** existing SigmaHQ coverage for this RAT is host-based; this fills the **network-layer** gap.
+- **Validation:** fields confirmed against real PA-04 Zeek `http.log` · `sigma-cli` clean (0 errors) · logic tested to fire only on malicious rows.
+
+> 📬 Submitted and currently under maintainer review — [PR #6110](https://github.com/SigmaHQ/sigma/pull/6110).
+
+---
+
 ## 🏗️ Operation Iron Watch — SOC Architecture & Detection Labs
 
 A three-part SOC lab series. Each operation builds on the last: from manual detection to SIEM to full DMZ architecture with proactive defense.
@@ -88,18 +125,6 @@ A three-part SOC lab series. Each operation builds on the last: from manual dete
 | [IW01](https://github.com/cyberlandji/operation-iron-watch-01) | Foundational SOC — Snort IDS, manual correlation | ✅ Complete |
 | [IW02](https://github.com/cyberlandji/operation-iron-watch-02) | Graylog SIEM — web enumeration detection, SSH compromise invisible | ✅ Complete |
 | [IW03](https://github.com/cyberlandji/operation-iron-watch-03) | DMZ hardening, full log pipeline, DDoS Detection Suite | ✅ Complete |
-
----
-
-## 🔮 Operation Prism Box — SIEM + EDR + Detection Correlation (Coming Soon)
-
-Elastic Stack SIEM + Suricata IDS/IPS + Elastic Defend EDR + Atomic Red Team + Shuffle SOAR. Proactive detection methodology — writing Sigma + Suricata rules from simulated attack scenarios with cross-telemetry correlation.
-
-| Phase | Focus | Status |
-|-------|-------|--------|
-| PB-01 | Elastic Stack install + EDR implementation | ✅ Complete |
-| PB-02 | Atomic Red Team attack scenarios, Sigma + Suricata rule development | 🔜 Planned |
-| PB-03 | Hardening, full detection suite, Shuffle SOAR + playbook automation | 🔜 Planned |
 
 ---
 

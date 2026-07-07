@@ -46,6 +46,7 @@ Most of my work is **hands-on**: I build lab environments, write detection rules
 ![Kali Linux](https://img.shields.io/badge/Kali-Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-Ubuntu%20%7C%20Debian-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Windows](https://img.shields.io/badge/Windows%2010-Victim%20Endpoint-0078D6?style=flat-square&logo=windows&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi%203B%2B-Iron%20Watch%20Lab-C51A4A?style=flat-square&logo=raspberrypi&logoColor=white)
 ![Apache](https://img.shields.io/badge/Apache-Web%20Server-D22128?style=flat-square&logo=apache&logoColor=white)
 ![rsyslog](https://img.shields.io/badge/rsyslog-Log%20Pipeline-green?style=flat-square)
 ![draw.io](https://img.shields.io/badge/draw.io-Architecture-orange?style=flat-square)

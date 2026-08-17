@@ -11,7 +11,7 @@
 
 ## Blue Team Practitioner — Detection Engineering
 
-*Detection-as-code pipelines · SOC & purple-team labs · writing quality Suricata / Sigma / EQL rules to share*
+*Detection-as-code pipelines · SOC & purple-team labs · network & endpoint detection engineering*
 
 [![ISC2 CC](https://img.shields.io/badge/ISC2-Certified%20in%20Cybersecurity-00a651?style=for-the-badge&logo=isc2&logoColor=white)](https://www.credly.com/)
 [![Security+](https://img.shields.io/badge/CompTIA-Security%2B%20(in%20progress)-e4002b?style=for-the-badge&logo=comptia&logoColor=white)](https://www.comptia.org/certifications/security)

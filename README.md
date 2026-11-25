@@ -1,6 +1,6 @@
 # Yohan Cédric Landji
 
-**Security Analyst — SOC & Detection Engineering**
+**Security Analyst — SOC & Detection Engineering** <br>
 Bremen, Germany · Open to Security Analyst and SOC roles in DE · BE · LU · CH · French (native), German, English
 
 [![ISC2 CC](https://img.shields.io/badge/ISC2-Certified%20in%20Cybersecurity-00a651?style=for-the-badge&logo=isc2&logoColor=white)](https://www.credly.com/badges/12c8d4ce-3e75-4b4b-a603-6a03796f0d9b/public_url)
